@@ -1,0 +1,9 @@
+body{
+    background-image: url(multimedia/html-color-codes-color-tutorials-hero.jpg);
+    color: white;
+}
+.header{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
