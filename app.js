@@ -10,16 +10,23 @@ let real = new Moneda (1, "real", 40);
 let euro = new Moneda (2, "euro", 400);
 let dolar = new Moneda (3, "dolar", 350);
 
-let Monedas = [];
-Monedas.push(real);
-Monedas.push(euro);
-Monedas.push(dolar);
+let monedas = [];
+monedas.push(real);
+monedas.push(euro);
+monedas.push(dolar);
 
 
-console.log (Monedas)
+console.log (monedas)
 
 
 alert ("Bienvenid@ a nuestro sitio web!")
+
+let mostrarCotizacion = monedas.forEach(element => alert ("COTIZACION DEL DÍA " + element.nombre +" "+ element.precio)); 
+    
+    
+
+
+
 
 let eleccion1 = prompt ("¿Que tipo de operacion desea realizar? Ingrese VENDER para vender moneda extranjera o COMPRAR para comprar moneda extranjera");
 
